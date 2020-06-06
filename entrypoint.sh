@@ -4,7 +4,6 @@ cd /frpc
 
 cat <<-EOF > /frpc/frpc.ini
 [common]
-token=${token}
 server_addr = ${server}
 server_port = ${port}
 
